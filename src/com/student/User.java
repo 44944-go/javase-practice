@@ -1,19 +1,19 @@
 package com.student;
 
-public class user {
+public class User {
     private String userName;
     private String passWor;
     private String personId;
     private String phoneNumber;
 
-    public user(String userName, String passWor, String personId, String phoneNumber) {
+    public User(String userName, String passWor, String personId, String phoneNumber) {
         this.userName = userName;
         this.passWor = passWor;
         this.personId = personId;
         this.phoneNumber = phoneNumber;
     }
 
-    public user() {
+    public User() {
     }
 
     public String getUserName() {
